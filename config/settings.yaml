@@ -1,0 +1,22 @@
+app_name: "KPI Dashboard & OKR Tracker"
+
+default_kpi:
+  - revenue
+  - cost
+  - profit_margin
+  - customer_growth
+  - churn_rate
+  - employee_score
+
+forecast:
+  default_months: 6
+  min_months: 3
+  max_months: 12
+
+theme:
+  default: "light"
+
+export:
+  chart_width: 800
+  chart_height: 600
+  dpi: 300
