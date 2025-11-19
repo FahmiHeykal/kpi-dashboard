@@ -1,49 +1,85 @@
-# 📊 KPI Dashboard & OKR 
+# 📊 KPI Dashboard & OKR Tracker
 
-A powerful, interactive dashboard for monitoring Key Performance Indicators (KPI) and Objectives and Key Results (OKR) in real-time. Built with Streamlit and featuring advanced analytics, forecasting, and export capabilities.
+A powerful, interactive dashboard for monitoring Key Performance Indicators (KPI) and Objectives and Key Results (OKR) in real-time. Built with **Streamlit**, enhanced with advanced analytics, forecasting, and export capabilities.
 
-![Dashboard Overview](screenshots/overview.png)
+<p align="center">
+  <img src="assets/icons/dashboard.png" width="750" alt="Dashboard Overview">
+</p>
+
+---
 
 ## ✨ Features
 
+A high-level overview of all key capabilities supported by the dashboard.
+
+---
+
 ### 📈 Real-time KPI Monitoring
-![KPI Monitoring](screenshots/kpi-monitoring.png)
-- **Automated KPI Calculation**: Revenue, cost, profit margin, customer growth, churn rate, and employee performance scores
-- **MoM/YoY Comparisons**: Month-over-Month and Year-over-Year growth analysis
-- **Interactive Metrics**: Dynamic KPI cards with trend indicators
-- **Multi-dimensional Analysis**: Filter by date range, divisions, and specific metrics
+
+<p align="center">
+  <img src="assets/icons/reports_charts.png" width="650" alt="KPI Monitoring">
+</p>
+
+- **Automated KPI Calculation** — revenue, cost, profit margin, customer growth, churn rate, employee performance  
+- **MoM/YoY Comparison**  
+- **Interactive Metric Cards with Trend Indicators**  
+- **Advanced Filtering** by date range, division, and KPIs  
+
+---
 
 ### 🏢 Division Performance Analysis
-![Division Analysis](screenshots/division-analysis.png)
-- **Division Comparison**: Side-by-side performance comparison across business units
-- **Revenue Distribution**: Pie charts showing revenue contribution by division
-- **Performance Scoring**: Employee performance metrics by department
-- **Custom Filtering**: Select specific divisions for focused analysis
+
+<p align="center">
+  <img src="assets/icons/devision_analysis.png" width="650" alt="Division Analysis">
+</p>
+
+- Compare performance across multiple divisions  
+- Revenue contribution breakdown (pie & bar charts)  
+- Employee performance scoring per department  
+- Division-level drill-down and filtering options  
+
+---
 
 ### 🔮 Revenue Forecasting
-![Forecast Analysis](screenshots/forecast.png)
-**Advanced Predictive Analytics** menggunakan Linear Regression untuk memprediksi revenue bulan depan:
-- **Multi-month Projections**: Forecast 3-12 months into the future
-- **Historical Trend Analysis**: Compare forecasts with actual performance
-- **Confidence Indicators**: Visual representation of prediction accuracy
-- **Customizable Horizon**: Adjust forecast period based on business needs
 
-Fitur forecasting menggunakan machine learning model (Linear Regression) yang dilatih pada data historis untuk memberikan prediksi revenue yang akurat. Sistem secara otomatis mendeteksi pola musiman dan tren pertumbuhan.
+<p align="center">
+  <img src="assets/icons/forecast.png" width="650" alt="Forecast Analysis">
+</p>
+
+Powered by **Linear Regression (scikit-learn)** with automatic trend detection:
+
+- Forecast **3–12 months ahead**  
+- Detect seasonality patterns  
+- Visual confidence indicators  
+- Compare predictions vs actual performance  
+- Adjustable forecast horizon  
+
+---
 
 ### 📤 Export & Reporting
-![Export Features](screenshots/export.png)
-- **Multiple Formats**: Export to PDF, Excel, CSV, and PNG
-- **Professional Reports**: Automated report generation with company branding
-- **Chart Export**: Save individual visualizations as high-quality PNG
-- **Batch Processing**: Export multiple reports simultaneously
+
+<p align="center">
+  <img src="assets/icons/print.png" width="650" alt="Export Features">
+</p>
+
+- Export reports to **PDF, Excel, CSV, and PNG**  
+- Auto-generated business reports with clean layout  
+- Export individual charts or batch exports  
+- Supports print-ready formatting  
+
+---
 
 ### 🎨 Interactive Visualizations
-![Visualizations](screenshots/visualizations.png)
-- **Trend Lines**: Revenue and cost trends over time
-- **Area Charts**: Cumulative performance visualization
-- **Bar Charts**: Division-wise performance comparison
-- **Pie/Donut Charts**: Composition and distribution analysis
-- **Scatter Plots**: Correlation analysis between metrics
+
+<p align="center">
+  <img src="assets/icons/reports_charts.png" width="650" alt="Visualizations">
+</p>
+
+- Line, Area, Bar, Pie, and Donut charts  
+- Trend & correlation visualizations  
+- Division comparison visual analytics  
+- Fully interactive charts with tooltips & filters  
+
 
 ## 🚀 Quick Start
 
