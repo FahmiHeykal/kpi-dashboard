@@ -1,4 +1,4 @@
-# 📊 KPI Dashboard & OKR Tracker
+# 📊 KPI Dashboard & OKR 
 
 A powerful, interactive dashboard for monitoring Key Performance Indicators (KPI) and Objectives and Key Results (OKR) in real-time. Built with **Streamlit**, enhanced with advanced analytics, forecasting, and export capabilities.
 
