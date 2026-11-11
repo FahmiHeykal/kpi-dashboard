@@ -91,7 +91,7 @@ Powered by **Linear Regression (scikit-learn)** with automatic trend detection:
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/username/kpi-dashboard.git
+git clone https://github.com/FahmiHeykal/kpi-dashboard.git
 cd kpi-dashboard
 ```
 
